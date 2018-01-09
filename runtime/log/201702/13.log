@@ -1,0 +1,1632 @@
+[ 2017-02-13T14:24:55+08:00 ] 192.168.0.159 192.168.0.163 GET /
+[ log ] www.yes.com/ [运行时间：0.571693s][吞吐率：1.75req/s] [内存消耗：1,091.34kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T14:24:56+08:00 ] 192.168.0.159 192.168.0.163 GET /
+[ log ] www.yes.com/ [运行时间：0.197509s][吞吐率：5.06req/s] [内存消耗：1,091.15kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T14:25:20+08:00 ] 192.168.0.159 192.168.0.163 GET /index/restTest
+[ log ] www.yes.com/index/restTest [运行时间：0.341239s][吞吐率：2.93req/s] [内存消耗：923.48kb] [文件加载：41]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'restTest',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; thinkphp_show_page_trace=0|0; Hm_lvt_3c8ecbfa472e76b0340d7a701a04197e=1486964403; Hm_lpvt_3c8ecbfa472e76b0340d7a701a04197e=1486964403',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T14:25:31+08:00 ] 192.168.0.159 192.168.0.163 GET /index/resttest
+[ log ] www.yes.com/index/resttest [运行时间：0.083116s][吞吐率：12.03req/s] [内存消耗：923.52kb] [文件加载：41]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'resttest',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; thinkphp_show_page_trace=0|0; Hm_lvt_3c8ecbfa472e76b0340d7a701a04197e=1486964403; Hm_lpvt_3c8ecbfa472e76b0340d7a701a04197e=1486964429',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T14:25:36+08:00 ] 192.168.0.159 192.168.0.163 GET /index/rest_test
+[ log ] www.yes.com/index/rest_test [运行时间：0.131185s][吞吐率：7.62req/s] [内存消耗：937.40kb] [文件加载：43]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; thinkphp_show_page_trace=0|0; Hm_lvt_3c8ecbfa472e76b0340d7a701a04197e=1486964403; Hm_lpvt_3c8ecbfa472e76b0340d7a701a04197e=1486964429',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'Think\controller\Rest' not found[/home/lqc/tp5/application/index/controller/RestTestController.php:5]
+
+---------------------------------------------------------------
+[ 2017-02-13T14:32:12+08:00 ] 192.168.0.159 192.168.0.163 GET /index/rest_test
+[ log ] www.yes.com/index/rest_test [运行时间：0.027608s][吞吐率：36.22req/s] [内存消耗：959.75kb] [文件加载：43]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; thinkphp_show_page_trace=0|0; Hm_lvt_3c8ecbfa472e76b0340d7a701a04197e=1486964403; Hm_lpvt_3c8ecbfa472e76b0340d7a701a04197e=1486964444',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'Think\controller\Rest' not found[/home/lqc/tp5/application/index/controller/RestTestController.php:5]
+
+---------------------------------------------------------------
+[ 2017-02-13T14:32:37+08:00 ] 192.168.0.159 192.168.0.163 GET /index/rest_test
+[ log ] www.yes.com/index/rest_test [运行时间：0.036323s][吞吐率：27.53req/s] [内存消耗：959.64kb] [文件加载：43]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; thinkphp_show_page_trace=0|0; Hm_lvt_3c8ecbfa472e76b0340d7a701a04197e=1486964403; Hm_lpvt_3c8ecbfa472e76b0340d7a701a04197e=1486964840',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'Think\controller\Rest' not found[/home/lqc/tp5/application/index/controller/RestTestController.php:5]
+
+---------------------------------------------------------------
+[ 2017-02-13T14:32:38+08:00 ] 192.168.0.159 192.168.0.163 GET /index/rest_test
+[ log ] www.yes.com/index/rest_test [运行时间：0.032014s][吞吐率：31.24req/s] [内存消耗：959.64kb] [文件加载：43]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; thinkphp_show_page_trace=0|0; Hm_lvt_3c8ecbfa472e76b0340d7a701a04197e=1486964403; Hm_lpvt_3c8ecbfa472e76b0340d7a701a04197e=1486964840',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'Think\controller\Rest' not found[/home/lqc/tp5/application/index/controller/RestTestController.php:5]
+
+---------------------------------------------------------------
+[ 2017-02-13T14:33:22+08:00 ] 192.168.0.159 192.168.0.163 GET /index/rest_test
+[ log ] www.yes.com/index/rest_test [运行时间：0.029022s][吞吐率：34.46req/s] [内存消耗：946.59kb] [文件加载：42]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; thinkphp_show_page_trace=0|0; Hm_lvt_3c8ecbfa472e76b0340d7a701a04197e=1486964403; Hm_lpvt_3c8ecbfa472e76b0340d7a701a04197e=1486964867',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\controller\Rest->_empty[ /home/lqc/tp5/thinkphp/library/think/controller/Rest.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]error action :index[/home/lqc/tp5/thinkphp/library/think/controller/Rest.php:82]
+
+---------------------------------------------------------------
+[ 2017-02-13T14:33:50+08:00 ] 192.168.0.159 192.168.0.163 GET /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.024202s][吞吐率：41.32req/s] [内存消耗：817.81kb] [文件加载：34]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; thinkphp_show_page_trace=0|0; Hm_lvt_3c8ecbfa472e76b0340d7a701a04197e=1486964403; Hm_lpvt_3c8ecbfa472e76b0340d7a701a04197e=1486964910',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T14:33:50+08:00 ] 192.168.0.159 192.168.0.163 GET /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.009693s][吞吐率：103.17req/s] [内存消耗：817.56kb] [文件加载：34]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; thinkphp_show_page_trace=0|0; Hm_lvt_3c8ecbfa472e76b0340d7a701a04197e=1486964403; Hm_lpvt_3c8ecbfa472e76b0340d7a701a04197e=1486964910',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:19:31+08:00 ] 192.168.0.159 192.168.0.163 POST /
+[ log ] www.yes.com/ [运行时间：0.024720s][吞吐率：40.45req/s] [内存消耗：1,120.09kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '1251',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypzBleuSmHrCy44yF',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '4853ffc3-bb51-2035-77ca-c4b65ab90784',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'cvOIKq2rf++AWM58XIfEI6I7SN/ZJhl+dOTSMiabx6/R6LadHDIGLD4KLSHPT1Uwo7lSHkb/dn4S6z0lsSY5tTtlpfAALraqyUtwAaj9b5eXxnNtqn/rl78o0lWLtTVVmVmuZTcHi05Zor+8jEtm2V7dgnQAwbDr1oi4sd8k4n7y5lKCaq4mkZ0aJ6OELCw/GAcJ5C440g/byoACkZFAO47QLYZrO4ztNFdQdpNI44uvRaXjts2ksQ9vOuFZd1TZYxz1UMuqGWDTEVPPkhEwkluRVez84dyLj0KV/oQQGie/Zw6kezDG39i1mgeGxx3G+fgApNPpw02jh4witWFwIRY3iu3DBvhNFaARWDsS0vUnoyP1ZMnEN5lkBVJBRPfp08mGlYH3Ktunq8gYCjZCjSLda8mbfyQXJL3TuUqLD7IF/XlPkcJcRIPj+HkuTtor5Ov17gLsZfh06UaZ1WoKNlOuEUnv46O+OOO3/Hh1U+/+KKgYoGU98opBi7o1PMP6oN00UZbShBX8LG37tgFYS6xyHB+uVrWaV8ZRsVVFnm978B9TRowjdHmFYAvNpZxWpeMa+9rlaAwMgYfQUeUPVwun5HPcDV6O3bdk+9u+eMiBpriHEUHtixb8jALrCd+W8c6X1nzR834GThNnwGXS/2rodCeSAqB33PlZ1wXHZhI=',
+  'field' => '1',
+  'thumb_path' => 'http://test.jihui365.cn/uploads/image/member_/20161221/585a1710e3142_thumb.png',
+  'path' => 'http://test.jihui365.cn/uploads/image/member_/20161221/585a1710c073d.png',
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:21:13+08:00 ] 192.168.0.159 192.168.0.163 GET /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.060045s][吞吐率：16.65req/s] [内存消耗：966.67kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '3faea249-5d7c-ff39-9d58-4dc7a342e38f',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\index\controller\RestTestController::$mothod[/home/lqc/tp5/application/index/controller/RestTestController.php:9]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:23:38+08:00 ] 192.168.0.159 192.168.0.163 GET /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.024781s][吞吐率：40.35req/s] [内存消耗：914.96kb] [文件加载：40]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'a352e2e9-8428-d282-a867-5d1fb5a2c84a',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:23:46+08:00 ] 192.168.0.159 192.168.0.163 POST /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.027822s][吞吐率：35.94req/s] [内存消耗：976.07kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '1251',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIF68QgmSeghvJ8QQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'c34348a6-c8da-9654-8e42-c28930716b76',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'cvOIKq2rf++AWM58XIfEI6I7SN/ZJhl+dOTSMiabx6/R6LadHDIGLD4KLSHPT1Uwo7lSHkb/dn4S6z0lsSY5tTtlpfAALraqyUtwAaj9b5eXxnNtqn/rl78o0lWLtTVVmVmuZTcHi05Zor+8jEtm2V7dgnQAwbDr1oi4sd8k4n7y5lKCaq4mkZ0aJ6OELCw/GAcJ5C440g/byoACkZFAO47QLYZrO4ztNFdQdpNI44uvRaXjts2ksQ9vOuFZd1TZYxz1UMuqGWDTEVPPkhEwkluRVez84dyLj0KV/oQQGie/Zw6kezDG39i1mgeGxx3G+fgApNPpw02jh4witWFwIRY3iu3DBvhNFaARWDsS0vUnoyP1ZMnEN5lkBVJBRPfp08mGlYH3Ktunq8gYCjZCjSLda8mbfyQXJL3TuUqLD7IF/XlPkcJcRIPj+HkuTtor5Ov17gLsZfh06UaZ1WoKNlOuEUnv46O+OOO3/Hh1U+/+KKgYoGU98opBi7o1PMP6oN00UZbShBX8LG37tgFYS6xyHB+uVrWaV8ZRsVVFnm978B9TRowjdHmFYAvNpZxWpeMa+9rlaAwMgYfQUeUPVwun5HPcDV6O3bdk+9u+eMiBpriHEUHtixb8jALrCd+W8c6X1nzR834GThNnwGXS/2rodCeSAqB33PlZ1wXHZhI=',
+  'field' => '1',
+  'thumb_path' => 'http://test.jihui365.cn/uploads/image/member_/20161221/585a1710e3142_thumb.png',
+  'path' => 'http://test.jihui365.cn/uploads/image/member_/20161221/585a1710c073d.png',
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:26:57+08:00 ] 192.168.0.159 192.168.0.163 GET /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.017506s][吞吐率：57.12req/s] [内存消耗：914.97kb] [文件加载：40]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ceec7b21-b974-93e0-9812-86f24d2e45ac',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:27:14+08:00 ] 192.168.0.159 192.168.0.163 POST /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.026689s][吞吐率：37.47req/s] [内存消耗：974.80kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'da0a733e-1928-02ff-6c72-1d61309fb921',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:31:33+08:00 ] 192.168.0.159 192.168.0.163 POST /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.017014s][吞吐率：58.78req/s] [内存消耗：797.68kb] [文件加载：33]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '3df7ac37-24bd-a482-d5f9-4c4a0c1c391a',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:32:42+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.020226s][吞吐率：49.44req/s] [内存消耗：797.75kb] [文件加载：33]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '7aa30def-b888-d3dd-6b6a-93da1193361f',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:36:49+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.033491s][吞吐率：29.86req/s] [内存消耗：974.86kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '230ba696-77ab-ffeb-e031-3f984639b8cd',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:36:54+08:00 ] 192.168.0.159 192.168.0.163 DELETE /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.028391s][吞吐率：35.22req/s] [内存消耗：974.90kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'a7a42cd2-5111-bd26-f4ed-6e68bacb8a95',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::delete_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:19]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:37:05+08:00 ] 192.168.0.159 192.168.0.163 POST /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.018903s][吞吐率：52.90req/s] [内存消耗：821.80kb] [文件加载：34]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'bde0024b-a9c7-dee2-dd2d-a27c6743bdf6',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:37:11+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.027130s][吞吐率：36.86req/s] [内存消耗：974.86kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'b06d0190-9211-2f53-3041-ec6f8c2c3c13',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:38:10+08:00 ] 192.168.0.159 192.168.0.163 PATCH /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.019098s][吞吐率：52.36req/s] [内存消耗：821.84kb] [文件加载：34]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'aaaabd28-556d-816d-228a-7ada827a71cf',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:38:12+08:00 ] 192.168.0.159 192.168.0.163 PATCH /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.015299s][吞吐率：65.36req/s] [内存消耗：821.84kb] [文件加载：34]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '18c248ab-6376-e7fe-fcbe-c13e44c2dbd9',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:38:17+08:00 ] 192.168.0.159 192.168.0.163 PATCH /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.016991s][吞吐率：58.86req/s] [内存消耗：821.84kb] [文件加载：34]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '05d99ae7-7f62-735c-bfe6-a696899b6466',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:38:33+08:00 ] 192.168.0.159 192.168.0.163 POST /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.016906s][吞吐率：59.15req/s] [内存消耗：821.73kb] [文件加载：34]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '7f7c6689-beda-1a2a-0c9e-991abb28cd3a',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:38:34+08:00 ] 192.168.0.159 192.168.0.163 POST /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.025760s][吞吐率：38.82req/s] [内存消耗：821.73kb] [文件加载：34]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '419ff9a9-47e5-ddfa-f85d-1056cd3d4bb4',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:38:40+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.029987s][吞吐率：33.35req/s] [内存消耗：974.88kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '0b7134db-bde6-a9ee-86b5-c18dbbc2b7cb',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:42:07+08:00 ] 192.168.0.159 192.168.0.163 POST /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.023392s][吞吐率：42.75req/s] [内存消耗：821.95kb] [文件加载：34]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'aaf04841-9f9a-0491-a25b-b9aacb3fd6d9',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:42:10+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.020224s][吞吐率：49.45req/s] [内存消耗：975.09kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '46ae46cd-71ee-5cc2-b3db-00b78398b6c7',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:02+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.033286s][吞吐率：30.04req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '5dbf0db4-2727-9f55-1e9c-9222611018c6',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:04+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.032425s][吞吐率：30.84req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '4f04cd28-09da-489c-5779-699a0aa02135',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:05+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.030930s][吞吐率：32.33req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '66f437ec-698d-b42b-be50-14182e684c2e',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:06+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.036852s][吞吐率：27.14req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'ead19e5a-9482-718f-0773-81caa63ef168',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:06+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.026090s][吞吐率：38.33req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '955d052a-4dc3-3f83-521d-71b4b90693bf',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:06+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.030492s][吞吐率：32.80req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '93dd27bd-2978-575d-548a-8f4aa974f720',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:06+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.028878s][吞吐率：34.63req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '1fe6515d-d6d9-3076-9fe9-118cbb142e2f',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:07+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.019046s][吞吐率：52.50req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'dfcac573-702a-7b5a-86c1-42382cd998ff',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:07+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.019161s][吞吐率：52.19req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '45b44548-72be-a854-80be-0eb0c6d01a75',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:07+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.017242s][吞吐率：58.00req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'd441c9d3-69dd-8784-bdb2-fe0a35cb2510',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:07+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.020757s][吞吐率：48.18req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '8f23d09c-1791-6c82-59be-4f51dd9fd41d',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:07+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.036795s][吞吐率：27.18req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'f0b040fb-0b56-549b-5957-c5ccf45dc4d5',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:08+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.019688s][吞吐率：50.79req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '056aee19-55c0-fb7a-4203-e0f645c70ce9',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:08+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.019921s][吞吐率：50.20req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'e46afd56-ea31-698d-3bd9-92ee9ab5b775',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:08+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.036219s][吞吐率：27.61req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '7fa1fc44-a4ff-76ef-1bbc-5d8c4b7649e8',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:45:09+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.031141s][吞吐率：32.11req/s] [内存消耗：975.39kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '2d673b45-eaef-266a-0688-64261b3f7fdf',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:46:44+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.037507s][吞吐率：26.66req/s] [内存消耗：975.07kb] [文件加载：44]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => '7408bb0c-8d76-1915-a954-a5792ec04c76',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\RestTestController::put_handler()[/home/lqc/tp5/application/index/controller/RestTestController.php:17]
+
+---------------------------------------------------------------
+[ 2017-02-13T15:48:11+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.023269s][吞吐率：42.98req/s] [内存消耗：798.38kb] [文件加载：33]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'c73829f7-f176-8896-700b-8b70bdfb6c8e',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:48:42+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.020019s][吞吐率：49.95req/s] [内存消耗：798.41kb] [文件加载：33]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'e2cbbc50-36d3-b0f9-e3ce-e7307b0c8061',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:49:49+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.024799s][吞吐率：40.32req/s] [内存消耗：797.97kb] [文件加载：33]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'c56e162b-cdcf-e8b3-e97c-2d9255a23039',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-02-13T15:49:51+08:00 ] 192.168.0.159 192.168.0.163 PUT /index/rest_test/rest
+[ log ] www.yes.com/index/rest_test/rest [运行时间：0.020199s][吞吐率：49.51req/s] [内存消耗：797.97kb] [文件加载：33]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rest_test',
+    2 => 'rest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'cache-control' => 'no-cache',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'postman-token' => 'c2772427-ea23-8587-bbce-09eace76d4a9',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\RestTestController->rest[ /home/lqc/tp5/application/index/controller/RestTestController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

@@ -1,0 +1,483 @@
+[ 2016-12-22T10:23:08+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.101008s][吞吐率：9.90req/s] [内存消耗：761.00kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T10:27:12+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.023968s][吞吐率：41.72req/s] [内存消耗：761.98kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T10:33:13+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.009603s][吞吐率：104.13req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T10:33:16+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/swoole [运行时间：32.650039s][吞吐率：0.03req/s] [内存消耗：1,152.39kb] [文件加载：47]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'swoole',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SwooleController->index[ /home/lqc/tp5/application/index/controller/SwooleController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method swoole_server::push()[/home/lqc/tp5/application/index/controller/SwooleController.php:64]
+
+---------------------------------------------------------------
+[ 2016-12-22T10:35:03+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.015111s][吞吐率：66.18req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T10:35:05+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/swoole [运行时间：22.556872s][吞吐率：0.04req/s] [内存消耗：1,152.43kb] [文件加载：47]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'swoole',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SwooleController->index[ /home/lqc/tp5/application/index/controller/SwooleController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method swoole_server::push()[/home/lqc/tp5/application/index/controller/SwooleController.php:64]
+
+---------------------------------------------------------------
+[ 2016-12-22T10:36:30+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.018208s][吞吐率：54.92req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T10:48:57+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.013827s][吞吐率：72.32req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T10:49:04+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/swoole [运行时间：18.023770s][吞吐率：0.06req/s] [内存消耗：1,153.65kb] [文件加载：47]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'swoole',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SwooleController->index[ /home/lqc/tp5/application/index/controller/SwooleController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function app\index\controller\task()[/home/lqc/tp5/application/index/controller/SwooleController.php:68]
+
+---------------------------------------------------------------
+[ 2016-12-22T10:50:53+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.017862s][吞吐率：55.98req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T10:52:41+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.015017s][吞吐率：66.59req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T10:54:42+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.015039s][吞吐率：66.49req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T10:55:30+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.010342s][吞吐率：96.69req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T11:01:40+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.027289s][吞吐率：36.64req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T11:01:51+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.013107s][吞吐率：76.30req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T11:02:53+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.020328s][吞吐率：49.19req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T11:07:16+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.015505s][吞吐率：64.50req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T11:07:33+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.015145s][吞吐率：66.03req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T11:07:46+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.017674s][吞吐率：56.58req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T11:22:08+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.013627s][吞吐率：73.38req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T11:23:44+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.030069s][吞吐率：33.26req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T11:27:48+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.023609s][吞吐率：42.36req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T11:31:36+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.011966s][吞吐率：83.57req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-22T11:32:35+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/client [运行时间：0.010139s][吞吐率：98.63req/s] [内存消耗：761.95kb] [文件加载：32]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'client',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\ClientController->index[ /home/lqc/tp5/application/index/controller/ClientController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

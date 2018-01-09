@@ -1,0 +1,64 @@
+[ 2017-08-11T17:59:15+08:00 ][ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-08-11T17:59:15+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Hprose',
+    2 => NULL,
+  ),
+)
+[ 2017-08-11T17:59:15+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-08-11T17:59:15+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-08-11T17:59:15+08:00 ][ error ] [1]Call to undefined method Hprose\Http\Server::addInstanceMthods()[/home/lqc/tp5/thinkphp/library/think/controller/Hprose.php:7]
+[ 2017-08-11T18:00:38+08:00 ][ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-08-11T18:00:38+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Hprose',
+    2 => NULL,
+  ),
+)
+[ 2017-08-11T18:00:38+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-08-11T18:00:38+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-08-11T18:00:38+08:00 ][ info ] [ RUN ] app\index\controller\HproseController->index[ /home/lqc/tp5/application/index/controller/HproseController.php ]
+[ 2017-08-11T18:00:53+08:00 ][ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-08-11T18:00:53+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Hprose',
+    2 => NULL,
+  ),
+)
+[ 2017-08-11T18:00:53+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-08-11T18:00:53+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-08-11T18:00:53+08:00 ][ info ] [ RUN ] app\index\controller\HproseController->index[ /home/lqc/tp5/application/index/controller/HproseController.php ]
+[ 2017-08-11T18:01:43+08:00 ][ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2017-08-11T18:01:43+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Hprose',
+    2 => NULL,
+  ),
+)
+[ 2017-08-11T18:01:43+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2017-08-11T18:01:43+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2017-08-11T18:01:43+08:00 ][ info ] [ RUN ] app\index\controller\HproseController->index[ /home/lqc/tp5/application/index/controller/HproseController.php ]

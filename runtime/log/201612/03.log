@@ -1,0 +1,130 @@
+[ 2016-12-03T00:00:34+08:00 ] 192.168.0.159 192.168.0.103 GET /index/rent/my_db_view
+[ log ] www.yes.com/index/rent/my_db_view [运行时间：0.068677s][吞吐率：14.56req/s] [内存消耗：1,709.15kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rent',
+    2 => 'my_db_view',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; pgv_si=s2858117120',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\RentController->my_db_view[ /home/lqc/tp5/application/index/controller/RentController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002589s ] mysql:dbname=jihui.cn;host=192.168.0.10;charset=utf8
+
+---------------------------------------------------------------
+[ 2016-12-03T00:35:47+08:00 ] 192.168.0.159 192.168.0.103 GET /index/rent/index
+[ log ] www.yes.com/index/rent/index [运行时间：0.240279s][吞吐率：4.16req/s] [内存消耗：1,421.42kb] [文件加载：43]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rent',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; pgv_si=s2858117120',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\RentController->index[ /home/lqc/tp5/application/index/controller/RentController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003657s ] mysql:dbname=jihui.cn;host=192.168.0.10;charset=utf8
+
+---------------------------------------------------------------
+[ 2016-12-03T00:35:50+08:00 ] 192.168.0.159 192.168.0.103 GET /index/rent/index
+[ log ] www.yes.com/index/rent/index [运行时间：0.165911s][吞吐率：6.03req/s] [内存消耗：1,421.65kb] [文件加载：43]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rent',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; pgv_si=s2858117120',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\RentController->index[ /home/lqc/tp5/application/index/controller/RentController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002598s ] mysql:dbname=jihui.cn;host=192.168.0.10;charset=utf8
+
+---------------------------------------------------------------
+[ 2016-12-03T00:35:57+08:00 ] 192.168.0.159 192.168.0.103 GET /index/rent/index
+[ log ] www.yes.com/index/rent/index [运行时间：0.052442s][吞吐率：19.07req/s] [内存消耗：1,185.64kb] [文件加载：47]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rent',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; pgv_si=s2858117120',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\RentController->index[ /home/lqc/tp5/application/index/controller/RentController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

@@ -1,0 +1,1146 @@
+[ 2016-12-20T10:44:13+08:00 ] 192.168.0.159 192.168.0.109 GET /
+[ log ] www.yes.com/ [运行时间：0.313270s][吞吐率：3.19req/s] [内存消耗：1,091.26kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T10:44:13+08:00 ] 192.168.0.159 192.168.0.109 GET /
+[ log ] www.yes.com/ [运行时间：0.064265s][吞吐率：15.56req/s] [内存消耗：1,091.08kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T10:44:53+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.150685s][吞吐率：6.64req/s] [内存消耗：1,053.04kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T10:44:55+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.038336s][吞吐率：26.09req/s] [内存消耗：1,053.27kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T10:54:24+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.014245s][吞吐率：70.20req/s] [内存消耗：1,053.27kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T11:02:36+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.035543s][吞吐率：28.13req/s] [内存消耗：1,053.27kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T11:11:24+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.157716s][吞吐率：6.34req/s] [内存消耗：1,155.20kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\swoole_websocket_server' not found[/home/lqc/tp5/application/index/controller/SearchController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-20T11:11:38+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.040283s][吞吐率：24.82req/s] [内存消耗：1,155.41kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]swoole_server::__construct(): swoole_server must run at php_cli environment.[/home/lqc/tp5/application/index/controller/SearchController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-20T11:11:40+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.076091s][吞吐率：13.14req/s] [内存消耗：1,155.41kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]swoole_server::__construct(): swoole_server must run at php_cli environment.[/home/lqc/tp5/application/index/controller/SearchController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-20T11:11:40+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.047253s][吞吐率：21.16req/s] [内存消耗：1,155.41kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]swoole_server::__construct(): swoole_server must run at php_cli environment.[/home/lqc/tp5/application/index/controller/SearchController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-20T11:11:40+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.036213s][吞吐率：27.61req/s] [内存消耗：1,155.41kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]swoole_server::__construct(): swoole_server must run at php_cli environment.[/home/lqc/tp5/application/index/controller/SearchController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-20T11:11:40+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.032308s][吞吐率：30.95req/s] [内存消耗：1,155.41kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]swoole_server::__construct(): swoole_server must run at php_cli environment.[/home/lqc/tp5/application/index/controller/SearchController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-20T11:11:41+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.033864s][吞吐率：29.53req/s] [内存消耗：1,155.41kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]swoole_server::__construct(): swoole_server must run at php_cli environment.[/home/lqc/tp5/application/index/controller/SearchController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-20T11:11:41+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.044837s][吞吐率：22.30req/s] [内存消耗：1,155.41kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]swoole_server::__construct(): swoole_server must run at php_cli environment.[/home/lqc/tp5/application/index/controller/SearchController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-20T11:11:41+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.041600s][吞吐率：24.04req/s] [内存消耗：1,155.41kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]swoole_server::__construct(): swoole_server must run at php_cli environment.[/home/lqc/tp5/application/index/controller/SearchController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-20T11:51:21+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.041544s][吞吐率：24.07req/s] [内存消耗：1,155.41kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]swoole_server::__construct(): swoole_server must run at php_cli environment.[/home/lqc/tp5/application/index/controller/SearchController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-20T12:11:07+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.571478s][吞吐率：1.75req/s] [内存消耗：1,833.30kb] [文件加载：57]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/search/index.html [ array (
+  0 => 'province',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.143907s ] mysql:dbname=jihui.cn;host=192.168.0.10;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qhb_area` [ RunTime:0.005291s ]
+[ sql ] [ SQL ] SELECT `id`,`areaname` FROM `qhb_area` WHERE  (  `parentid` = 0 ) [ RunTime:0.041639s ]
+
+---------------------------------------------------------------
+[ 2016-12-20T12:11:09+08:00 ] 192.168.0.159 192.168.0.109 GET /index/swoole
+[ log ] www.yes.com/index/swoole [运行时间：0.015610s][吞吐率：64.06req/s] [内存消耗：1,093.95kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'swoole',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SwooleController->index[ /home/lqc/tp5/application/index/controller/SwooleController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T12:11:09+08:00 ] 192.168.0.159 192.168.0.109 GET /index/swoole
+[ log ] www.yes.com/index/swoole [运行时间：0.034425s][吞吐率：29.05req/s] [内存消耗：1,093.55kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'swoole',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SwooleController->index[ /home/lqc/tp5/application/index/controller/SwooleController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T12:13:11+08:00 ] 192.168.0.159 192.168.0.109 GET /index/swoole
+[ log ] www.yes.com/index/swoole [运行时间：0.066584s][吞吐率：15.02req/s] [内存消耗：943.69kb] [文件加载：42]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'swoole',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}'[/home/lqc/tp5/application/index/controller/SwooleController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-20T12:13:25+08:00 ] 192.168.0.159 192.168.0.109 GET /index/swoole
+[ log ] www.yes.com/index/swoole [运行时间：0.026407s][吞吐率：37.87req/s] [内存消耗：975.92kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'swoole',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SwooleController->index[ /home/lqc/tp5/application/index/controller/SwooleController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T12:13:36+08:00 ] 192.168.0.159 192.168.0.109 GET /index/swoole
+[ log ] www.yes.com/index/swoole [运行时间：0.027708s][吞吐率：36.09req/s] [内存消耗：976.16kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'swoole',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yes.com/index/swoole',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SwooleController->index[ /home/lqc/tp5/application/index/controller/SwooleController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T12:40:20+08:00 ] 192.168.0.159 192.168.0.109 GET /index/swoole
+[ log ] www.yes.com/index/swoole [运行时间：0.032390s][吞吐率：30.87req/s] [内存消耗：977.11kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'swoole',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.yes.com/index/swoole',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SwooleController->index[ /home/lqc/tp5/application/index/controller/SwooleController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T12:49:49+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.013723s][吞吐率：72.87req/s] [内存消耗：1,053.17kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T15:49:25+08:00 ] 192.168.0.159 192.168.0.109 GET /
+[ log ] www.yes.com/ [运行时间：0.268799s][吞吐率：3.72req/s] [内存消耗：1,091.27kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T15:49:26+08:00 ] 192.168.0.159 192.168.0.109 GET /
+[ log ] www.yes.com/ [运行时间：0.034049s][吞吐率：29.37req/s] [内存消耗：1,091.09kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T18:09:45+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:/home/lqc/tp5/public/index.php [运行时间：0.369018s][吞吐率：2.71req/s] [内存消耗：1,100.86kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T18:11:12+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:/home/lqc/tp5/public/index.php [运行时间：0.193109s][吞吐率：5.18req/s] [内存消耗：1,100.86kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T18:13:33+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php [运行时间：0.036571s][吞吐率：27.34req/s] [内存消耗：1,100.84kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T18:14:01+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/index [运行时间：0.024402s][吞吐率：40.98req/s] [内存消耗：1,100.73kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T18:14:18+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/serch [运行时间：0.330475s][吞吐率：3.03req/s] [内存消耗：907.91kb] [文件加载：38]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'serch',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T18:14:38+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/search [运行时间：0.160696s][吞吐率：6.22req/s] [内存消耗：972.06kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T18:15:08+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.171549s][吞吐率：5.83req/s] [内存消耗：1,053.24kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; Hm_lpvt_407473d433e871de861cf818aa1405a1=1482213759',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T18:15:18+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/search [运行时间：0.023139s][吞吐率：43.22req/s] [内存消耗：972.06kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-20T18:17:03+08:00 ] 192.168.0.159 192.168.0.109 GET /index/swoole
+[ log ] www.yes.com/index/swoole [运行时间：0.294034s][吞吐率：3.40req/s] [内存消耗：1,153.03kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'swoole',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; Hm_lpvt_407473d433e871de861cf818aa1405a1=1482213759',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SwooleController->index[ /home/lqc/tp5/application/index/controller/SwooleController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]swoole_server::__construct(): swoole_server must run at php_cli environment.[/home/lqc/tp5/application/index/controller/SwooleController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-20T18:20:40+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:index.php index/search [运行时间：0.318561s][吞吐率：3.14req/s] [内存消耗：1,840.11kb] [文件加载：57]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/search/index.html [ array (
+  0 => 'province',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005086s ] mysql:dbname=jihui.cn;host=192.168.0.10;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qhb_area` [ RunTime:0.004234s ]
+[ sql ] [ SQL ] SELECT `id`,`areaname` FROM `qhb_area` WHERE  (  `parentid` = 0 ) [ RunTime:0.034931s ]
+
+---------------------------------------------------------------
+[ 2016-12-20T18:22:59+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.345795s][吞吐率：2.89req/s] [内存消耗：1,833.65kb] [文件加载：57]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; Hm_lpvt_407473d433e871de861cf818aa1405a1=1482213759',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/search/index.html [ array (
+  0 => 'province',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.092709s ] mysql:dbname=jihui.cn;host=192.168.0.10;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qhb_area` [ RunTime:0.006328s ]
+[ sql ] [ SQL ] SELECT `id`,`areaname` FROM `qhb_area` WHERE  (  `parentid` = 0 ) [ RunTime:0.031006s ]
+
+---------------------------------------------------------------
+[ 2016-12-20T18:23:02+08:00 ] 192.168.0.159 192.168.0.109 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.070274s][吞吐率：14.23req/s] [内存消耗：1,833.64kb] [文件加载：57]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; Hm_lpvt_407473d433e871de861cf818aa1405a1=1482213759',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/search/index.html [ array (
+  0 => 'province',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002603s ] mysql:dbname=jihui.cn;host=192.168.0.10;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qhb_area` [ RunTime:0.002448s ]
+[ sql ] [ SQL ] SELECT `id`,`areaname` FROM `qhb_area` WHERE  (  `parentid` = 0 ) [ RunTime:0.013803s ]
+
+---------------------------------------------------------------
+[ 2016-12-20T19:20:53+08:00 ] 192.168.0.159 192.168.0.109 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.040001s][吞吐率：25.00req/s] [内存消耗：1,061.70kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0; Hm_lvt_407473d433e871de861cf818aa1405a1=1482213759; Hm_lpvt_407473d433e871de861cf818aa1405a1=1482213759',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

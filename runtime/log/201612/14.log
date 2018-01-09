@@ -1,0 +1,2279 @@
+[ 2016-12-14T11:51:00+08:00 ] 192.168.0.159 192.168.0.102 GET /
+[ log ] www.yes.com/ [运行时间：0.269542s][吞吐率：3.71req/s] [内存消耗：1,091.26kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T11:51:00+08:00 ] 192.168.0.159 192.168.0.102 GET /
+[ log ] www.yes.com/ [运行时间：0.029458s][吞吐率：33.95req/s] [内存消耗：1,091.09kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T11:51:02+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.135510s][吞吐率：7.38req/s] [内存消耗：1,149.61kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T11:51:10+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade/test
+[ log ] www.yes.com/index/uploade/test [运行时间：3.880835s][吞吐率：0.26req/s] [内存消耗：1,326.54kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->test[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/test.html [ array (
+  0 => 'secret',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T11:51:15+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade/test
+[ log ] www.yes.com/index/uploade/test [运行时间：5.725641s][吞吐率：0.17req/s] [内存消耗：1,150.74kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->test[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/test.html [ array (
+  0 => 'secret',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T11:53:09+08:00 ] 192.168.0.159 192.168.0.102 GET /
+[ log ] www.yes.com/ [运行时间：0.022858s][吞吐率：43.75req/s] [内存消耗：1,091.34kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; thinkphp_show_page_trace=0|0; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T11:53:09+08:00 ] 192.168.0.159 192.168.0.102 GET /
+[ log ] www.yes.com/ [运行时间：0.014040s][吞吐率：71.23req/s] [内存消耗：1,091.18kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T11:53:11+08:00 ] 192.168.0.159 192.168.0.102 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.272198s][吞吐率：3.67req/s] [内存消耗：1,989.83kb] [文件加载：59]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/search/index.html [ array (
+  0 => 'province',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019607s ] mysql:dbname=jihui.cn;host=192.168.0.10;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qhb_area` [ RunTime:0.002980s ]
+[ sql ] [ SQL ] SELECT `id`,`areaname` FROM `qhb_area` WHERE  (  `parentid` = 0 ) [ RunTime:0.045765s ]
+
+---------------------------------------------------------------
+[ 2016-12-14T11:53:27+08:00 ] 192.168.0.159 192.168.0.102 POST /index/search/linkage.html
+[ log ] www.yes.com/index/search/linkage.html [运行时间：0.085679s][吞吐率：11.67req/s] [内存消耗：1,741.84kb] [文件加载：53]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'linkage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://www.yes.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yes.com/index/search',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '330000',
+)
+[ info ] [ RUN ] app\index\controller\SearchController->linkage[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003494s ] mysql:dbname=jihui.cn;host=192.168.0.10;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qhb_area` [ RunTime:0.002749s ]
+[ sql ] [ SQL ] SELECT `id`,`areaname` FROM `qhb_area` WHERE  (  `parentid` = 330000 ) [ RunTime:0.014548s ]
+
+---------------------------------------------------------------
+[ 2016-12-14T11:55:35+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade/test
+[ log ] www.yes.com/index/uploade/test [运行时间：0.030005s][吞吐率：33.33req/s] [内存消耗：1,106.91kb] [文件加载：47]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->test[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/test.html [ array (
+  0 => 'secret',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T11:55:46+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade/test
+[ log ] www.yes.com/index/uploade/test [运行时间：0.038440s][吞吐率：26.01req/s] [内存消耗：1,221.33kb] [文件加载：49]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->test[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/test.html [ array (
+  0 => 'secret',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T11:58:27+08:00 ] 192.168.0.159 192.168.0.102 GET /index/search
+[ log ] www.yes.com/index/search [运行时间：0.062221s][吞吐率：16.07req/s] [内存消耗：1,833.55kb] [文件加载：57]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\SearchController->index[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/search/index.html [ array (
+  0 => 'province',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002814s ] mysql:dbname=jihui.cn;host=192.168.0.10;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qhb_area` [ RunTime:0.002793s ]
+[ sql ] [ SQL ] SELECT `id`,`areaname` FROM `qhb_area` WHERE  (  `parentid` = 0 ) [ RunTime:0.014385s ]
+
+---------------------------------------------------------------
+[ 2016-12-14T11:58:30+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade/test
+[ log ] www.yes.com/index/uploade/test [运行时间：0.034742s][吞吐率：28.78req/s] [内存消耗：1,221.52kb] [文件加载：49]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->test[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/test.html [ array (
+  0 => 'secret',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T11:58:47+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade/test
+[ log ] www.yes.com/index/uploade/test [运行时间：0.045116s][吞吐率：22.17req/s] [内存消耗：1,106.89kb] [文件加载：47]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->test[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/test.html [ array (
+  0 => 'secret',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T11:59:46+08:00 ] 192.168.0.159 192.168.0.102 POST /index/search/linkage.html
+[ log ] www.yes.com/index/search/linkage.html [运行时间：0.085736s][吞吐率：11.66req/s] [内存消耗：1,742.02kb] [文件加载：53]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'linkage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://www.yes.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.yes.com/index/search',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '320000',
+)
+[ info ] [ RUN ] app\index\controller\SearchController->linkage[ /home/lqc/tp5/application/index/controller/SearchController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002534s ] mysql:dbname=jihui.cn;host=192.168.0.10;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qhb_area` [ RunTime:0.002714s ]
+[ sql ] [ SQL ] SELECT `id`,`areaname` FROM `qhb_area` WHERE  (  `parentid` = 320000 ) [ RunTime:0.031444s ]
+
+---------------------------------------------------------------
+[ 2016-12-14T12:00:52+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade/test
+[ log ] www.yes.com/index/uploade/test [运行时间：0.034745s][吞吐率：28.78req/s] [内存消耗：1,106.89kb] [文件加载：47]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->test[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/test.html [ array (
+  0 => 'secret',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T12:10:52+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/up.html
+[ log ] www.yes.com/index/uploade/up.html [运行时间：0.107212s][吞吐率：9.33req/s] [内存消耗：1,158.25kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+  'token' => '',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(./rsa_public_key.pem): failed to open stream: No such file or directory[/home/lqc/tp5/application/index/controller/UploadeController.php:25]
+
+---------------------------------------------------------------
+[ 2016-12-14T12:14:56+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.027636s][吞吐率：36.18req/s] [内存消耗：1,156.22kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+  'token' => '',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(ty_up.txt): failed to open stream: Permission denied[/home/lqc/tp5/application/index/controller/UploadeController.php:59]
+
+---------------------------------------------------------------
+[ 2016-12-14T12:15:00+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.019507s][吞吐率：51.26req/s] [内存消耗：1,156.27kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+  'token' => '',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(ty_up.txt): failed to open stream: Permission denied[/home/lqc/tp5/application/index/controller/UploadeController.php:59]
+
+---------------------------------------------------------------
+[ 2016-12-14T12:15:05+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.046965s][吞吐率：21.29req/s] [内存消耗：1,156.22kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+  'token' => '',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(ty_up.txt): failed to open stream: Permission denied[/home/lqc/tp5/application/index/controller/UploadeController.php:59]
+
+---------------------------------------------------------------
+[ 2016-12-14T12:16:10+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.042717s][吞吐率：23.41req/s] [内存消耗：1,156.17kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(ty_up.txt): failed to open stream: Permission denied[/home/lqc/tp5/application/index/controller/UploadeController.php:59]
+
+---------------------------------------------------------------
+[ 2016-12-14T12:17:13+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.033175s][吞吐率：30.14req/s] [内存消耗：1,156.21kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(ty_up.txt): failed to open stream: Permission denied[/home/lqc/tp5/application/index/controller/UploadeController.php:59]
+
+---------------------------------------------------------------
+[ 2016-12-14T12:17:24+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.053373s][吞吐率：18.74req/s] [内存消耗：1,156.21kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(ty_up.txt): failed to open stream: Permission denied[/home/lqc/tp5/application/index/controller/UploadeController.php:59]
+
+---------------------------------------------------------------
+[ 2016-12-14T12:17:40+08:00 ] 192.168.0.159 192.168.0.102 GET /
+[ log ] www.yes.com/ [运行时间：0.029881s][吞吐率：33.47req/s] [内存消耗：1,091.29kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T12:17:40+08:00 ] 192.168.0.159 192.168.0.102 GET /
+[ log ] www.yes.com/ [运行时间：0.015984s][吞吐率：62.56req/s] [内存消耗：1,091.18kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ /home/lqc/tp5/application/index/controller/IndexController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T12:17:50+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.029185s][吞吐率：34.26req/s] [内存消耗：1,151.02kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T12:17:57+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade/try_up
+[ log ] www.yes.com/index/uploade/try_up [运行时间：0.037551s][吞吐率：26.63req/s] [内存消耗：1,155.88kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_put_contents(ty_up.txt): failed to open stream: Permission denied[/home/lqc/tp5/application/index/controller/UploadeController.php:59]
+
+---------------------------------------------------------------
+[ 2016-12-14T12:18:25+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade/try_up
+[ log ] www.yes.com/index/uploade/try_up [运行时间：0.036149s][吞吐率：27.66req/s] [内存消耗：1,104.29kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T12:18:31+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.027448s][吞吐率：36.43req/s] [内存消耗：1,104.46kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T12:18:34+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.040509s][吞吐率：24.69req/s] [内存消耗：1,104.46kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T12:21:17+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.020123s][吞吐率：49.69req/s] [内存消耗：1,104.50kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T12:25:52+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.043491s][吞吐率：22.99req/s] [内存消耗：1,104.50kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T12:25:54+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.044833s][吞吐率：22.30req/s] [内存消耗：1,104.50kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T12:25:55+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.040397s][吞吐率：24.75req/s] [内存消耗：1,104.50kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T12:25:58+08:00 ] 192.168.0.159 192.168.0.102 POST /index/uploade/try_up.html
+[ log ] www.yes.com/index/uploade/try_up.html [运行时间：0.034794s][吞吐率：28.74req/s] [内存消耗：1,104.50kb] [文件加载：46]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => 'try_up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => '*/*',
+  'origin' => 'http://c.jihui365.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://c.jihui365.cn/fitting/test',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '小花',
+  'age' => '30',
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->try_up[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T13:59:51+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.076412s][吞吐率：13.09req/s] [内存消耗：1,159.60kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function app\index\controller\reuqes()[/home/lqc/tp5/application/index/controller/UploadeController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-14T14:00:06+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.119988s][吞吐率：8.33req/s] [内存消耗：1,159.86kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function app\index\controller\reuqest()[/home/lqc/tp5/application/index/controller/UploadeController.php:8]
+
+---------------------------------------------------------------
+[ 2016-12-14T14:00:23+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.148563s][吞吐率：6.73req/s] [内存消耗：1,147.20kb] [文件加载：49]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法不存在:think\Request->model[/home/lqc/tp5/thinkphp/library/think/Request.php:152]
+
+---------------------------------------------------------------
+[ 2016-12-14T14:00:49+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.047110s][吞吐率：21.23req/s] [内存消耗：1,151.70kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:00:49+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.016385s][吞吐率：61.03req/s] [内存消耗：1,151.16kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:01:31+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.042564s][吞吐率：23.49req/s] [内存消耗：1,152.49kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:01:31+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.025916s][吞吐率：38.59req/s] [内存消耗：1,151.95kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:01:59+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.035358s][吞吐率：28.28req/s] [内存消耗：1,152.98kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:01:59+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.021139s][吞吐率：47.31req/s] [内存消耗：1,152.50kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:03:01+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.030908s][吞吐率：32.35req/s] [内存消耗：1,158.18kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[/home/lqc/tp5/application/index/controller/UploadeController.php:12]
+
+---------------------------------------------------------------
+[ 2016-12-14T14:03:33+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.034285s][吞吐率：29.17req/s] [内存消耗：1,158.23kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[/home/lqc/tp5/application/index/controller/UploadeController.php:12]
+
+---------------------------------------------------------------
+[ 2016-12-14T14:03:58+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.036437s][吞吐率：27.44req/s] [内存消耗：1,158.18kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[/home/lqc/tp5/application/index/controller/UploadeController.php:12]
+
+---------------------------------------------------------------
+[ 2016-12-14T14:04:13+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.043755s][吞吐率：22.85req/s] [内存消耗：1,158.18kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[/home/lqc/tp5/application/index/controller/UploadeController.php:12]
+
+---------------------------------------------------------------
+[ 2016-12-14T14:04:14+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.079532s][吞吐率：12.57req/s] [内存消耗：1,158.18kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[/home/lqc/tp5/application/index/controller/UploadeController.php:12]
+
+---------------------------------------------------------------
+[ 2016-12-14T14:04:14+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.022865s][吞吐率：43.73req/s] [内存消耗：1,158.18kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[/home/lqc/tp5/application/index/controller/UploadeController.php:12]
+
+---------------------------------------------------------------
+[ 2016-12-14T14:04:14+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.024528s][吞吐率：40.77req/s] [内存消耗：1,158.18kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[/home/lqc/tp5/application/index/controller/UploadeController.php:12]
+
+---------------------------------------------------------------
+[ 2016-12-14T14:04:14+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.020471s][吞吐率：48.85req/s] [内存消耗：1,158.18kb] [文件加载：50]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Trying to get property of non-object[/home/lqc/tp5/application/index/controller/UploadeController.php:12]
+
+---------------------------------------------------------------
+[ 2016-12-14T14:05:37+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.035682s][吞吐率：28.03req/s] [内存消耗：1,153.46kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:05:37+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.031512s][吞吐率：31.73req/s] [内存消耗：1,152.91kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:06:46+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.032921s][吞吐率：30.38req/s] [内存消耗：1,153.47kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:06:46+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.050107s][吞吐率：19.96req/s] [内存消耗：1,152.83kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:07:18+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.077741s][吞吐率：12.86req/s] [内存消耗：1,154.33kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:07:18+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.050412s][吞吐率：19.84req/s] [内存消耗：1,153.80kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:07:45+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.034919s][吞吐率：28.64req/s] [内存消耗：1,154.89kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:07:45+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.030747s][吞吐率：32.52req/s] [内存消耗：1,154.27kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:10:06+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.037097s][吞吐率：26.96req/s] [内存消耗：1,155.32kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:10:06+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.034233s][吞吐率：29.21req/s] [内存消耗：1,154.76kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:13:44+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.036001s][吞吐率：27.78req/s] [内存消耗：1,155.80kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T14:13:44+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.047184s][吞吐率：21.19req/s] [内存消耗：1,155.18kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=675840; PHPSESSID=vhmf3vdqr9bpl776m68gc40as3; thinkphp_show_page_trace=0|0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T17:41:55+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.257658s][吞吐率：3.88req/s] [内存消耗：1,057.60kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T17:50:00+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.027602s][吞吐率：36.23req/s] [内存消耗：1,057.73kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T17:53:33+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.033850s][吞吐率：29.54req/s] [内存消耗：1,057.66kb] [文件加载：39]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T17:57:16+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.114491s][吞吐率：8.73req/s] [内存消耗：1,155.49kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=675840',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-14T17:57:17+08:00 ] 192.168.0.159 192.168.0.102 GET /index/uploade
+[ log ] www.yes.com/index/uploade [运行时间：0.048072s][吞吐率：20.80req/s] [内存消耗：1,155.20kb] [文件加载：48]
+[ info ] [ LANG ] /home/lqc/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploade',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.yes.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/plain',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=675840',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\UploadeController->index[ /home/lqc/tp5/application/index/controller/UploadeController.php ]
+[ info ] [ VIEW ] /home/lqc/tp5/public/../application/index/view/uploade/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
